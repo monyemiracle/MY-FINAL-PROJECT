@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <linearGradient id="tkos8ayfab" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFA015"/>
+            <stop offset="100%" stop-color="#FF9700"/>
+        </linearGradient>
+        <filter id="yp4c753toa">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g filter="url(#yp4c753toa)" transform="translate(-16 -846) translate(0 640) translate(16 206)">
+                        <path d="M0 0H64V64H0z"/>
+                        <g stroke="#000" stroke-width="3">
+                            <path d="M14.56 1.512C6.16 5.264.28 13.72.28 23.52c0 10.472 6.664 19.376 15.96 22.68" transform="translate(7.92 8.48)"/>
+                            <path d="M5.32 0L15.4 0 15.4 10.08" transform="translate(7.92 8.48)"/>
+                            <g>
+                                <path d="M1.68 44.968c8.4-3.752 14.28-12.208 14.28-22.008C15.96 12.488 9.296 3.584 0 .28" transform="translate(7.92 8.48) translate(32.48 .56)"/>
+                                <path d="M10.92 46.48L0.84 46.48 0.84 36.4" transform="translate(7.92 8.48) translate(32.48 .56)"/>
+                            </g>
+                        </g>
+                    </g>
+                    <path fill="url(#tkos8ayfab)" d="M28.244 40.148l12.476-5.377c1.022-.441 1.193-1.844.307-2.526l-10.809-8.32c-.885-.681-2.163-.13-2.3.991l-1.667 13.699c-.136 1.122.97 1.974 1.993 1.533" transform="translate(-16 -846) translate(0 640) translate(16 206)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

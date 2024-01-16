@@ -1,0 +1,501 @@
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.top-up{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    gap: 15rem;
+    padding-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-together{
+    display: flex;
+    gap: 4rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.up-list{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.under-list{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.image-header img{
+    width: 7rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.under-list li{
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #222222;
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.derm-1{
+    cursor: pointer;
+    color: #222222;
+    font-weight: 500;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+}
+
+.derm-1 div{
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: 1.3rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    left: -1px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.237);
+    display: none;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+
+    .race-in{
+        font-size: 14px;
+        font-weight: 900;
+        font-family: 'Nunito', sans-serif;
+    }
+
+.amen-1{
+    text-decoration: none;
+    color: #1A1A1A;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -3rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.amen-1:hover{
+    color: #FDBB52;
+    font-family: 'Nunito', sans-serif;
+}
+
+.derm-1 div p{
+    padding: 0.3rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.good-God{
+    margin-left: -11.5px;    
+}
+
+#indian{
+    color:#FDBB52;
+}
+
+.vrend{
+    display: flex;
+    align-items: center; 
+    transition: all .3s ease-in-out; 
+    font-family: 'Nunito', sans-serif;
+}
+
+.vrend:hover{
+    transform: translateX(25px);
+    font-family: 'Nunito', sans-serif;
+}
+
+.ihon{
+    color:#FDBB52;
+    z-index: 10;
+    font-size: 28px;
+    padding-right: 14px;
+    font-family: 'Nunito', sans-serif;
+    /* display: none; */
+}
+
+.ihon1{
+    color:#FDBB52;
+    z-index: 10;
+    font-size: 28px;
+    padding-right: 14px;
+    font-family: 'Nunito', sans-serif;
+    /* display: none; */
+}
+
+.ihon2{
+    color:#FDBB52;
+    z-index: 10;
+    font-size: 28px;
+    padding-right: 14px;
+    font-family: 'Nunito', sans-serif;
+    /* display: none; */
+}
+
+.derm-1:hover{
+    transition: .2s;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+.derm-1:hover div{
+    display: block;
+    color: rgb(75, 56, 56);
+    font-family: 'Nunito', sans-serif;
+}
+
+.derm-2{
+    cursor: pointer;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+}
+
+.texting-me{
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: 1.3rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    left: -1px; 
+    background-color: white;
+    border-radius: 0.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.237);
+    display: none;
+}
+
+
+.amen-11{
+    text-decoration: none;
+    color: #1A1A1A;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -3rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.amen-11:hover{
+    color: #FDBB52;
+    font-family: 'Nunito', sans-serif;
+}
+
+.derm-2 div p{
+    padding: 0.3rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.good-Godd{
+    margin-left: -11.5px;    
+    font-family: 'Nunito', sans-serif;
+}
+
+.vrend-hotel{
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    align-items: center; 
+    transition: all .3s ease-in-out; 
+}
+
+.vrend-hotel:hover{
+    transform: translateX(25px);
+    font-family: 'Nunito', sans-serif;
+}
+
+.ihon-s{
+    color:#FDBB52;
+    z-index: 10;
+    font-size: 28px;
+    padding-right: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.ihon-w{
+    color:#FDBB52;
+    z-index: 10;
+    font-size: 28px;
+    padding-right: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.ihon-q{
+    color:#FDBB52;
+    z-index: 10;
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    padding-right: 14px;
+}
+
+.derm-2:hover{
+    transition: .2s;
+    color: black;
+}
+
+.derm-2:hover .texting-me{
+    display: block;
+    color: rgb(75, 56, 56);
+    font-family: 'Nunito', sans-serif;
+}
+
+.derm-3{
+    cursor: pointer;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: #222222;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+}
+
+.derm-3:hover{
+    color: #FDBB52;
+    transition: color .3s;
+}
+
+.derm-4{
+    cursor: pointer;
+    color: #222222;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+}
+
+.derm-4:hover{
+    color: #FDBB52;
+}
+
+.derm-5{
+    cursor: pointer;
+    color: #222222;
+    font-weight: 500;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+}
+
+.all-together{
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: 1.3rem;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    width: 34.4rem;
+    font-size: 16px;
+    font-weight: 200;
+    position: absolute;
+    left: -17rem; 
+    background-color: white;
+    border-radius: 0.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.237);
+    display: none;
+}
+
+.craving-me{
+    width: 20rem;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+} 
+
+.craving-m{
+    width: 25.1rem;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+}
+
+.craving-e{
+    width: 25rem;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+}
+
+    #coinsd{
+        color: #FDBB52;
+    }
+
+.amen-21{
+    text-decoration: none;
+    color: #1A1A1A;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    left: -2rem;
+}
+
+.amen-21:hover{
+    color: #FDBB52;
+}
+
+.derm-5 div p{
+    padding: 0.3rem;
+}
+
+.good-Godds{
+    margin-left: -10px; 
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;   
+}
+
+.vrend-hotelss{
+    display: flex;
+    align-items: center; 
+    font-family: 'Nunito', sans-serif;
+    transition: all .3s ease-in-out; 
+}
+
+.vrend-hotelss:hover{
+    transform: translateX(35px);
+}
+
+.ihon-m{
+    color:#FDBB52;
+    z-index: 10;
+    font-size: 28px;
+    padding-right: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.derm-5:hover{
+    transition: .2s;
+    color: black;
+}
+
+.derm-5:hover .all-together{
+    display: flex;
+    color: rgb(75, 56, 56);
+}
+
+.down-list{
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cart{
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cart-inside{
+    color: var(--text-dark);
+    height: 20px;
+    width: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.oooh{
+    height: 18px;
+    min-width: 18px;
+    text-align: center;
+    border-radius: 9px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;   
+    color: white;
+    background-color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+.normal-one{
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #1a1a1a;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+.normal-one:hover{
+    color: #FDBB52;
+}
+
+.normal-two{
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn-1{
+    width: 8.5rem;
+    height: 2.8rem;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: #FDBB52;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.btn-1:hover{
+    background-color: rgb(53,52,71);
+    color: #ffffff;
+    transition: .6s;
+    font-family: 'Nunito', sans-serif;
+}
