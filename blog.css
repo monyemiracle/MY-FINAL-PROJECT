@@ -55,14 +55,15 @@ body{
     position: fixed;
     z-index: 100;
     box-sizing: border-box;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .14);
     font-family: 'Nunito', sans-serif;
     background-color: white;
 }
 
 .navbar{
     display: flex;
-    gap: 15rem;
-    padding-top: 1rem;
+    gap: 10rem;
+    padding: 1rem 45px;
     justify-content: center;
     align-items: center;
 }
@@ -546,580 +547,347 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
-.top-background{
+.startin{
     width: 100%;
-    height: 30rem;
-    background-color:rgb(255,246,230);
+    height: 24rem;
+    background: rgb(255,240,211);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-/* .img-background{
-    background-image: url(mask.webp);
-    width: 50%;
-    height: 20rem;
+.blog{
     display: flex;
     align-items: center;
     justify-content: center;
-    object-fit: cover;
-    z-index: 3;
-    
-} */
-.top-1 h2{
+}
+.blog p{
     font-size: 50px;
-    font-weight: 600;
     line-height: 60px;
+    font-weight: 600;
     color: #0e0e0f;
     font-family: 'Nunito', sans-serif;
+    margin-top: 2rem;
 }
-.top-1 p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #616163;
-    font-family: 'Nunito', sans-serif;
-}
-.pure{
-    width: 100%;
-    display: flex;
+
+.arrow-container{
     align-items: center;
-    justify-content: center;
-    margin-left: 2%;
-    gap: 2%;
-    margin-top: 8%;
-}
-.ano img{
-    width: 400px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-.ano{
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-}
-.ano button{
-    position: absolute;
-    border: none;
-    background: rgb(253,187,82);
-    border-radius: 0.3rem;
-    font-family: 'Nunito', sans-serif;
-    font-size: 28px;
-    padding: 35px;
-    color: #0e0e0f;
     position: relative;
-    left: 8.5rem;
-    bottom: 5rem;
-}
-.ano button p{
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    color: #0e0e0f;
-    margin-top: 10px;
-}
-.anno img{
-    position: relative;
-    width: 200px;
-    height: 280px;
-    margin-top: 6%;
-    border-radius: 0.3rem;
-    bottom: 10rem;
-    left: 10rem;
+    bottom: 2rem;
     text-align: center;
-    object-fit: cover;
-    object-position: left 1rem;
 }
-.anno{
+
+.arrow-box .bx{
+    font-size: 27px;
+}
+
+.arrow-box .bx:hover{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.arrow-box{
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-#k-text{
-    margin-left: 15%;
-    margin-bottom: 10%;
-}
-
-#k-text h2{
-    margin-top: 10px;
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 50px;
-    color: #0e0e0f;
-    font-family: 'Nunito', sans-serif;
-}
-
-#k-text p{
-    font-size: 18px;
-    width: 620px;
-    font-weight: 400;
-    line-height: 30px;
-    font-family: 'Nunito', sans-serif;
-    color: #616163;
-}
-
-.icon-cn{
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.book{ 
-    width: 350px;
-    color: #000;
-}
-.book h4{
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 30px;
-    color: #0e0e0f;
-    font-family: 'Nunito', sans-serif;
-}
-
-.bob-btn{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    border-radius: 1rem;
-}
-
-.bob-btn i{
-    padding: 13px;
-    font-size: 25px;
-    border-radius: 3rem;
-    border: 1px solid rgb(207,201,190);
-
-}
-.bob-btn i:hover{
-    border: 1px solid rgb(253,187,82);
-    z-index: 1;
+    border: 1px solid  rgb(255,240,211);
     border-radius: 50%;
-    cursor: pointer;
-}
-.second{
-    display: flex;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    text-align: center;
     align-items: center;
-    justify-content: center;
-}
-.second1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40rem;
-}
-.second1 p{
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 50px;
-    color: #0e0e0f;
-    font-family: 'Nunito', sans-serif;
-}
-.img-flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5rem;
-    position: relative;
-    left: 1rem;
 }
 
-.mimi img{
-    width: 90%;
-    border-radius: 0.3rem;
-}
-.mi{
-    display: grid;
-    gap: 0.7rem;
-    margin-top: 1rem;
-}
-.mi h2{
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 32px;
-    font-family: 'Nunito', sans-serif;
-    color: rgb(14,14,15);
-    cursor: pointer;
-}
-.mi p{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    font-family: 'Nunito', sans-serif;
-    color: #616163;
-}
-.mi h2:hover{
-    color: #fdbb52;
-}
-.http{
-    width: 100%;
-    height: 53rem;
-    background-color:rgb(255,246,230);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 7rem;
-}
-.passion{
-    width: 11rem;
-    height: 8rem;
-    background: rgb(255,255,255);
-    border-radius: 0.5rem;
-    position: relative;
-    left: 20rem;
-    bottom: 10rem;
-    display:grid;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-}
-.pass img{
-    width: 25px;
-    border-radius: 3rem;
-    position: relative;
-}
-.pass{
-    position: relative;
-    right: 1.5rem;
-    top: 0.5rem;
-}
-.pass1{
-    position: relative;
-    left: 1.5rem;
-    z-index: 2;
-}
-.pass2{
-    position: relative;
-    left: 1rem;
-    z-index: 1;
-}
-.pass3{
-    position: relative;
-    left: 0.5rem;
-}
-.passion h2{
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 30px;
-    color: #0e0e0f;
-    font-family: 'Nunito', sans-serif;
-}
-.passion p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #616163;
-    font-family: 'Nunito', sans-serif;
-}
-.parentt{
-    display: flex;
-    gap: 13rem;
-    margin-top: 10rem;
-}
-.luto h2{
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 50px;
-    font-family: 'Nunito', sans-serif;
-    color: #0e0e0f;
-    width: 30rem;
-}
-.cast{
-    display: flex;
-    gap: 9rem;
-    margin-top: 3rem;
-}
-.cast h2{
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 600;
-    font-family: 'Nunito', sans-serif;
-    color: #0e0e0f;
-}
-.castt{
-    display: flex;
-    gap: 2.6rem;
-    margin-top: 3rem;
-    align-items: center;
-    justify-content: center;
-}
-.castt h2{
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 600;
-    font-family: 'Nunito', sans-serif;
-    color: #0e0e0f;
-    width: 26rem;
-}
-.casttt{
-    display: flex;
-    gap: 2.6rem;
-    margin-top: 3rem;
-    align-items: center;
-    justify-content: center;
-}
-.casttt h2{
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 600;
-    font-family: 'Nunito', sans-serif;
-    color: #0e0e0f;
-    width: 26rem;
-}
-.line {
-    width: 100%;
-    height: 1px;
-    background-color: rgba(97, 97, 99, .2);
-    margin-top: 3rem;
-}
-.are{
-    width: 100%;
-    height: 50rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.are h2{
-    font-size: 42px;
-    font-weight: 400;
-    line-height: 54px;
-    color: #0e0e0f;
-    font-family: 'Nunito', sans-serif;
-    width: 65rem;
-}
-.nike-1 h3{
-    font-family: 'Nunito', sans-serif;
-    font-size: 36px;
-    line-height: 54px;
-    font-weight: 400;
-    color: rgb(14,14,15);
-    width: 66rem;
-    position: relative;
-    left: 5rem;
-}
-.nike-1 p{
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
-    line-height: 20px;
-    color: rgb(14,14,15);
-    font-weight: 400;
-    position: relative;
-    left: 5rem;
+.group > div{
+    width: 950px;
+    height: 179vh;
+    background: transparent;
 }
 
-.alex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50rem;
-    margin-top: 3rem;
-}
-.alex img{
-    width: 3rem;
-    border-radius: 2rem;
-    
-}
-.tar2{
-    position: relative;
-    right: 1.2rem;
-    z-index: 4;
+.group > div.cover-right{
+    margin-top: 2rem;
+    background: transparent;
+    position: sticky;
+    top: 0;
+    height: 90vh;
 }
 
-.tar3{
-    position: relative;
-    right: 2.2rem;
-    z-index: 3;
-}
-.tar4{
-    position: relative;
-    right: 3.2rem;
-    z-index: 2;
-}
-.tar5{
-    position: relative;
-    right: 4.2rem;
-    z-index: 1;
-}
-.alex-img span img{
-    border: 2px solid #ffffff;
-    width: 3.3rem;
+.group{
+    padding: 0rem 1px;
+    display: flex;
 }
 
-.are-img{
+/* ==============LEFT===WRAPPER======= */
+
+.left-wrapper{
+    padding: 0px 45px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 7rem;
-    position: relative;
-    bottom: 5rem;
-    opacity: 0.3;
-}
-.peace{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 53rem;
-}
-.peace h2{
-    font-size: 42px;
-    font-weight: 600;
-    line-height: 50px;
-    color: #0e0e0f;
-    font-family: 'Nunito', sans-serif;
-}
-.peace button{
-    width: 7rem;
-    height: 2.7rem;
-    background: rgb(253,187,82);
-    border-radius: 0.2rem;
-    border: none;
-    color: rgb(14,14,15);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    font-family: 'Nunito', sans-serif;
-}
-.peace button:hover{
-    background: rgb(53,52,71);
-    color: #ffffff;
 }
 
-
-.philosophy{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5rem;
-    gap: 3rem;
-}
-.challenge img{
-    width: 80%;
-    height: 30rem;
-    border-radius: 0.2rem;
+.left-wrap img{
+    border-radius: 9px;
     object-fit: cover;
+    width: 23rem;
+    height: 15rem;
 }
-.challenge{
+
+.left-wrap-box img{
+    border-radius: 9px;
+    object-fit: cover;
+    width: 23rem;
+    height: 15rem;
+}
+
+.left-wrap{
+    margin-top: 2rem;
+    gap: 5rem;
+    margin-right: 2rem;
+    padding: 0px 0px;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .06);
+    height: 67vh;
+    width: 25rem;
+    margin-left: 2rem;
+}
+.left-wrap img{
+    position: relative;
+    left: 1rem;
+}
+.left-wrap img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.left-wrap-box{
+    margin-top: 2rem;
+    gap: 5rem;
+    padding: 0px 0px;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .06);
+    height: 67vh;
+    width: 25rem;
+}
+
+.left-wrap h2{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.left-wrap h2:hover{
+    color: #FDBB52;
+}
+
+.left-wrap-box h2{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 24px;
+    font-weight: 500;
+}
+.left-wrap-box img{
+    position: relative;
+    left: 1rem;
+}
+.left-wrap-box img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.left-wrap-box h2:hover{
+    color: #FDBB52;
+}
+
+.left-wrap p{
+    margin-left: 1rem;
+    color: #707072;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.left-wrap-box p{
+    margin-left: 1rem;
+    color: #707072;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.left-wrap a p{
+    margin-left: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 1.4rem;
+    color: #FDBB52;
+    text-decoration: underline;
+}
+
+.left-wrap a p:hover{
+    color: #353447;
+}
+
+.left-wrap-box a p{
+    margin-left: 1rem;
+    color: #FDBB52;
+    padding: 0dvh 0rem;
+    margin-top: 1.4rem;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.left-wrap-box a p:hover{
+    color: #353447;
+}
+
+.below{
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+a button{
+    width: 6rem;
+    height: 2rem;
+    background: #FDBB52;
+    border: 1px solid #FDBB52;
+    border-radius: 3px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+a button:hover{
+    background: #353447;
+    border: 1px solid #353447;
+    color: #fff;
+}
+
+
+/* =================RIGHT=====SIDE============= */
+
+.search{
+    box-shadow: 0 0 20px rgba(0, 0, 0, .06);
+    width: 390px;
+    height: 7rem;
     display: flex;
     align-items: center;
-    
-    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    border-radius: 8px;
+
 }
-.challenge h2{
+
+.srch{
+    width: 250px;
+    height: 50px;
+    background: transparent;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 8px;
+    border: 1px solid #CFCFD0;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.btn{
+    width: 100px;
+    height: 45px;
+    background-color: #FDBB52;
+    border: 2px solid #FDBB52;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+.srch::placeholder{
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+/* ================RIGTH--CONTAINER===== */
+.right-container{
+    display: block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .06);
+    padding: 5px 20px;
+    height: 65vh;
+    width: 390px;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.right-container h2{
+    margin-top: 1rem;
     font-size: 28px;
     font-weight: 600;
-    line-height: 36px;
-    font-family: 'Nunito', sans-serif;
-    color:rgb(14,14,15);
-    width: 35rem;
 }
-.challenge p{
+
+.right-box{
+    display: flex;
+    margin-top: 1.4rem;
+}
+.right-box img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.right-box p.right-big-text{
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #616163;
-    font-family: 'Nunito', sans-serif;
+    font-weight:600;
+    margin-left: 1rem;
 }
-.let img{
-    width: 25%;
-    height: 10rem;
+
+.right-box p.right-big-text:hover{
+    color: #FDBB52;
+}
+
+.right-box p.right-small-text{
+    font-size: 15px;
+    font-weight:500;
+    color: #CFCFD0;
+    margin-left: 1rem;
+}
+
+
+.right-box img{
+    border-radius: 5px;
+    width: 95px;
     object-fit: cover;
-    border-radius: 0.3rem;
+    height: 5rem;
 }
-.let{
-    display:flex;
-    gap: 2rem;
-}
-.bik{
-    position: relative;
-    right: 0.7rem;
-    top: 2rem;
-}
-.bik{
-    display:grid;
-    gap: 1rem;
-}
-.let h2{
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    font-family: 'Nunito', sans-serif;
-    color: rgb(14,14,15);
-}
-.div{
-    display:grid;
-    gap: 2rem;
-}
-.say{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-.let h4{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    font-family: 'Nunito', sans-serif;
-    color: rgb(97,97,99);
-}
-.let p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    font-family: 'Nunito', sans-serif;
-    color: #616163;
-}
-.truth{
-    width: 100%;
-    height: 13rem;
-    background: rgb(53,52,71);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10rem;
-}
-.truth h2{
-    font-size: 42px;
-    line-height: 50px;
-    font-weight: 600;
-    font-family: 'Nunito', sans-serif;
-    color: #ffffff;
-    width: 40rem;
-    position: relative;
-    right: 6rem;
-}
-.truth1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10rem;
-}
-.truth button{
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    font-family: 'Nunito', sans-serif;
-    color: rgb(14,14,15);
-    width: 14rem;
-    height: 2.8rem;
-    border-radius: 0.3rem;
-    border: none;
-    background: rgb(253,187,82);
-}
+
+
+/* ===============FOOTER============ */
 
 .salam1{
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20rem;
+    justify-content: space-evenly;
+    gap: 1rem;
 }
 .salam{
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 .salam1 h2{
     font-size: 42px;
@@ -1128,6 +896,7 @@ body{
     font-family: 'Nunito', sans-serif;
     color: #0e0e0f;
 }
+
 .boot h1:hover{
     color: #fdbb52;
     cursor: pointer;
@@ -1437,4 +1206,297 @@ body{
 .iconc #small a{
     font-size: 13px;
     color: rgb(14,14,15);
+}
+
+
+@media (max-width: 600px){
+    .image-area img{
+        width: 10px;
+        height: 100px;
+    }
+
+    body{
+        overflow: hidden !important;
+    }
+
+    .body-class{
+        width: 100%;
+        padding: 3px 15px;
+        height: 1px;
+        justify-content: space-between;
+    }
+
+    .top-up{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .under-list{
+        display: none;
+    }
+
+    .two-together{
+        display:flex;
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 15px;
+    }
+
+    .image-header img{
+        width: 10px;
+    }
+
+
+    .normal-two{
+        display:none;
+    }
+
+    .startin{
+        width: 100%;
+        height: 18rem;
+    }
+
+    .blog p{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .group > div{
+        width: 100%;
+        height: 129vh;
+        background: transparent;
+    }
+    
+
+.group{
+    display: inline-block;
+    
+}
+
+/* ==============LEFT===WRAPPER======= */
+
+.left-wrapper{
+    margin-top: 1.5rem;
+    padding: 0px 15px;
+    display: block;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.left-wrap img{
+    border-radius: 9px;
+    object-fit: cover;
+    width: 100%;
+    height: 15rem;
+}
+
+.left-wrap-box img{
+    border-radius: 9px;
+    object-fit: cover;
+    width: 100%;
+    height: 15rem;
+}
+
+.left-wrap{
+    margin-top: 1px;
+    width: 100%;
+    gap: 13rem;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .06);
+    height: 90vh;
+}
+
+.left-wrap-box{
+    margin-top: 1.6rem;
+    height: 90vh;
+}
+
+.left-wrap h2{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+.left-wrap-box h2{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.left-wrap-box h2:hover{
+    color: #FDBB52;
+}
+
+.left-wrap p{
+    margin-left: 1rem;
+    color: #707072;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.left-wrap-box p{
+    margin-left: 1rem;
+    color: #707072;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.left-wrap a p{
+    margin-left: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 1.4rem;
+    color: #FDBB52;
+    text-decoration: underline;
+}
+
+.left-wrap a p:hover{
+    color: #353447;
+}
+
+.left-wrap-box a p{
+    margin-left: 1rem;
+    color: #FDBB52;
+    padding: 0dvh 0rem;
+    margin-top: 1.4rem;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+
+.group > div.cover-right{
+    margin-top: 93rem;
+    top: 0;
+    display: block;
+    padding: 1px 15px;
+    width: 100%;
+    height: 80vh;
+}
+
+.right-container{
+    display: block;
+    padding: 5px 15px;
+    justify-content: space-between;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+.right-box{
+    display: flex;
+    margin-top: 1.4rem;
+}
+
+.right-box p.right-big-text{
+    font-size: 16px;
+    font-weight:600;
+    margin-left: 1rem;
+}
+
+.right-box p.right-big-text:hover{
+    color: #FDBB52;
+}
+
+.right-box p.right-small-text{
+    font-size: 15px;
+    font-weight:500;
+    color: #CFCFD0;
+    margin-left: 1rem;
+}
+
+
+.right-box img{
+    border-radius: 5px;
+    width: 95px;
+    object-fit: cover;
+    height: 5rem;
+}
+
+
+.search{
+    box-shadow: 0 0 20px rgba(0, 0, 0, .06);
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    border-radius: 8px;
+
+}
+
+.srch{
+    width: 250px;
+    height: 50px;
+    background: transparent;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 8px;
+    border: 1px solid #CFCFD0;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+.btn{
+    width: 100px;
+    height: 45px;
+    background-color: #FDBB52;
+    border: 2px solid #FDBB52;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+
+
+.salam1 h2{
+    display: none;
+}
+
+
+.salam1{
+    margin-top: 8rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 1px 15px;
+}
+
+.salam{
+    margin-top: 0rem;
+    width: 100%;
+}
+
+.salam1 svg{
+    position: relative;
+    right: 10rem;
+}
+
+.working{
+    display: inline-block;
+    align-items: center;
+}
+
+.grand-parent-div {
+    margin-top: 2rem;
+    padding: 2px 15px;
+}
+
 }
